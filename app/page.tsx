@@ -31,9 +31,9 @@ export default function Home() {
         
         <Email/>
       </div>       
-      <div className='relative flex justify-center rounded-xl border border-gray-600 w-full lg:w-2/3 overflow-hidden'>
+      <div className='relative flex justify-center rounded-xl border border-gray-600 w-full lg:w-2/3 overflow-hidden'>       
         <VideoCompareSlider />
-        <div className="absolute bottom-0 flex justify-center text-center rounded-xl border-t border-gray-300 bg-gradient-to-b from-zinc-200 p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
+        <div className="absolute bottom-0 flex justify-center text-center rounded-xl border-t border-black bg-gray-700 bg-opacity-50 text-white p-4 ">
           <Autotype 
             text="A  monk and female warrior fighting in a Chinese temple" 
           />
