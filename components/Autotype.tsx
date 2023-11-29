@@ -2,7 +2,14 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 
-const Autotype = ({ text, className = '', typingSpeed = 50, delay = 2000 }) => {
+interface AutotypeProps {
+    text: string; 
+    className?: string;
+    typingSpeed?: number;
+    delay?: number;
+  };
+
+const Autotype: React.FC<AutotypeProps> = ({ text, className = '', typingSpeed = 50, delay = 2000 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [typing, setTyping] = useState(true);
 
