@@ -29,14 +29,14 @@ export default function Home() {
         </p>
       </div>
       <div className='flex w-full flex-col justify-center p-0 sm:p-5 text-center md:w-full md:text-center mt-10 sm:mt-0'>
-        <h1 className={`${roboto.className} my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-center`}>Make Your Films</h1>
+        <h1 className={`${roboto.className} my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-center`}>Animate Your Films</h1>
         <p className={`${roboto.className} mb-8 text-xl sm:text-2xl md:text-3xl leading-normal`}>Create 3D Characters and Scenes by Typing</p>
         
         <Email/>
       </div>       
       <div className='relative flex justify-center rounded-xl border border-gray-600 w-full lg:w-2/3 overflow-hidden'>       
         <VideoCompareSlider />
-        <div className="absolute top-0 flex justify-center text-center rounded-xl border-t border-black bg-gray-700 bg-opacity-50 text-white p-4 ">
+        <div className="absolute top-0 flex justify-center text-center rounded-xl border-t border-black bg-gray-700 bg-opacity-50 text-white p-2 lg:p-4 ">
           <Autotype 
             text="A  monk and female warrior fighting in a Chinese temple" 
           />

@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mimes.ai - Make Your Films',
+  title: 'Mimes.ai - Animate Your Films',
   description: 'Create 3D Characters and Scenes by Typing',
 }
 
