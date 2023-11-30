@@ -4,6 +4,9 @@ import VideoCompareSlider from '../components/VideoCompareSlider';
 import Email from '../components/Email';
 import Autotype from '../components/Autotype';
 import { Roboto } from 'next/font/google'
+import { SocialIcon } from 'react-social-icons/component'
+import 'react-social-icons/twitter'
+import 'react-social-icons/instagram'
 
 const roboto = Roboto({
   weight: '700',
@@ -39,10 +42,10 @@ export default function Home() {
           />
         </div>           
       </div>
-
-     
-
-    
+      <div className="flex justify-center items-center space-x-4 mt-10">
+        <SocialIcon bgColor="transparent" fgColor="gray" url="https://twitter.com/mimes_ai" />
+        <SocialIcon bgColor="transparent" fgColor="gray" url="https://instagram.com/mimes_ai" />
+      </div>    
     </main>
   )
 }
