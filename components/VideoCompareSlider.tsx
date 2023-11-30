@@ -2,8 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import { ReactCompareSlider, ReactCompareSliderHandle } from 'react-compare-slider';
 
+interface VideoComponentProps {
+    src: string;
+    alt: string;
+}; 
+
 // Custom video component
-const VideoComponent = ({ src, alt }) => {
+const VideoComponent: React.FC<VideoComponentProps> = ({ src, alt }) => {
   return (
     <video width="100%" height="100%" autoPlay loop muted>
       <source src={src} type="video/mp4" />
