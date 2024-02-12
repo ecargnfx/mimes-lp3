@@ -9,6 +9,7 @@ export default function Email() {
         id="getWaitlistContainer"
         data-waitlist_id="12159"
         data-widget_type="WIDGET_2"
+        data-signup_email_placeholder_value="name@email.com"
         className="flex w-full flex-col justify-center items-center"
         placeholder="Enter your email"
       ></div>
