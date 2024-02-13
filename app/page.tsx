@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <div className='flex w-full flex-col justify-center p-0 sm:p-5 text-center md:w-full md:text-center mt-10 sm:mt-0'>
         <h1 className={`${roboto.className} my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-center`}><span className="bg-gradient-to-tr from-purple-500 to-blue-500 bg-clip-text text-transparent animate-gradient">Animate</span> Your World</h1>
-        <p className={`${roboto.className} mb-8 text-xl sm:text-2xl md:text-3xl leading-normal`}>Create 3D Animations with AI</p>
+        <p className={`${roboto.className} mb-8 text-xl sm:text-2xl md:text-3xl leading-normal`}>Build 3D Animated Scenes with AI</p>
         
         <Email/>
       </div>       
