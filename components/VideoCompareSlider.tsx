@@ -25,13 +25,13 @@ const VideoCompareSlider = () => {
       <ReactCompareSlider
         itemOne={
           <VideoComponent
-            src="/temple-fight-in-1.mov"
+            src="/demo-input.mp4"
             alt="Video one"
           />
         }
         itemTwo={
           <VideoComponent
-            src="temple-fight-out-3.mov"
+            src="/demo-render.mp4"
             alt="Video two"
           />
         }
